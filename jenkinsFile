@@ -18,9 +18,8 @@ pipeline {
                         }
                 }
 		stage('Compile deploy') {
-                        steps {
-                           
-                     		sh 'echo "HI"'
+                        steps {                           
+                     		echo "HI"
                                 
                        }
                 }
